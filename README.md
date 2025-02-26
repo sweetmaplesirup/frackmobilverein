@@ -1,6 +1,6 @@
 # Frackmobilverein Wirtschaftsingenieurwesen 2025
 
-Willkommen beim Repository des **Frackmobilvereins WIng 2025**!
+Willkommen beim Repository des **Frackmobilvereins Wirtschaftsingenieurwesen 2025**!
 
 Hier findest du eine statische Website, die Infos, Events und Kontaktmöglichkeiten rund um den Frackmobilverein bietet. Sie wird mit **GitHub Pages** gehostet.
 
