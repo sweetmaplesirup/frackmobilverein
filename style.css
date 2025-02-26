@@ -7,15 +7,15 @@
 
 body {
   font-family: sans-serif;
-  background-color: #fff; /* Weißer Seitenhintergrund */
-  color: #000; /* Schwarze Standardschrift */
+  background-color: #fff;
+  color: #000;
   line-height: 1.6;
 }
 
 /* GELBER HEADER / BANNER */
 header.hero {
-  background-color: #FFD400; /* Kräftiges Gelb für den Banner */
-  color: #000;              /* Schwarzer Text */
+  background-color: #FFD400;
+  color: #000;
   min-height: 70vh;
   text-align: center;
   position: relative;
@@ -33,55 +33,52 @@ nav {
   position: absolute;
   top: 0;
   left: 0;
+  padding: 10px 0;
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  justify-content: flex-end;
-  margin-right: 30px;
-}
-
-nav li {
-  margin: 10px;
+  justify-content: center;
+  gap: 30px;
 }
 
 nav a {
   color: #000;
   text-decoration: none;
-  padding: 8px 12px;
   font-weight: bold;
-  transition: background-color 0.3s;
-  font-size: 1rem;
+  transition: color 0.3s;
+  padding: 5px 10px;
 }
 
 nav a:hover {
-  background-color: rgba(0, 0, 0, 0.1);
-  border-radius: 4px;
+  color: #FFD400;
 }
 
+/* Hero-Text */
 .hero-text h1 {
-  font-size: 3.5rem;  /* Größere Schrift */
+  font-size: 3.5rem;
   margin-bottom: 15px;
 }
 
 .hero-text p {
-  font-size: 1.3rem; /* Etwas größere Schrift */
-  margin-bottom: 25px;
+  font-size: 1.3rem;
+  margin-bottom: 40px;
 }
 
 .btn {
   text-decoration: none;
-  background-color: #333;
-  color: #FFD400;
+  background-color: #f5f5f5;
+  color: #000;
   padding: 12px 24px;
   border-radius: 4px;
   font-weight: bold;
   transition: background-color 0.3s;
+  margin-top: 20px;
 }
 
 .btn:hover {
-  background-color: #555;
+  background-color: #e0e0e0;
 }
 
 /* Allgemeine Sektionen */
@@ -106,17 +103,50 @@ nav a:hover {
 }
 
 .card {
-  background-color: #FFD400; /* Gelber Hintergrund */
-  color: #000;              /* Schwarze Schrift */
+  background-color: #FFD400;
+  color: #000;
   border-radius: 4px;
-  width: 300px;
+  width: 340px;
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  text-align: center;
 }
 
 .card h3 {
   margin-bottom: 10px;
   font-size: 1.5rem;
+}
+
+/* Carousel / Galerie */
+.carousel-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.carousel-slide {
+  width: 340px;
+  height: 240px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.carousel-slide:nth-child(3) {
+  border: 4px solid #FFD400;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
 /* Team */
@@ -128,10 +158,10 @@ nav a:hover {
 }
 
 .team-member {
-  background-color: #FFD400; /* Ebenfalls Gelb für Konsistenz */
+  background-color: #FFD400;
   color: #000;
   border-radius: 4px;
-  width: 200px;
+  width: 220px;
   padding: 20px;
   text-align: center;
   box-shadow: 0 2px 4px rgba(0,0,0,0.15);
@@ -141,36 +171,13 @@ nav a:hover {
   margin-bottom: 5px;
 }
 
-/* GALERIE / CAROUSEL */
-.carousel-container {
-  display: flex;
-  gap: 15px;
-  justify-content: center;
-  flex-wrap: wrap; /* Bilder ggf. umbrechen, wenn Platz nicht reicht */
-}
-
-.carousel-slide {
-  width: 300px;
-  height: 200px;
-  background-color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
-}
-
-.carousel-slide img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
-}
-
 /* Kontaktformular */
 .contact-info {
-  text-align: center; /* Zentriert den Kontakt-Text */
+  text-align: center;
   font-size: 1.2rem;
   margin-bottom: 20px;
-  
+}
+
 form {
   display: flex;
   flex-direction: column;
