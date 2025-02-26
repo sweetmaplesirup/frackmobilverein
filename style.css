@@ -68,7 +68,7 @@ nav a:hover {
 
 .btn {
   text-decoration: none;
-  background-color: #f5f5f5;
+  background-color: #5bc0de;
   color: #000;
   padding: 12px 24px;
   border-radius: 4px;
@@ -78,7 +78,7 @@ nav a:hover {
 }
 
 .btn:hover {
-  background-color: #e0e0e0;
+  background-color: #31b0d5;
 }
 
 /* Allgemeine Sektionen */
