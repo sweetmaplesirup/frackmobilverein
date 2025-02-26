@@ -172,39 +172,27 @@ nav a:hover {
   margin-top: 20px;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  max-width: 500px;
-  margin: 20px auto 0;
-}
-
-label {
-  font-weight: bold;
-  margin-top: 10px;
-}
-
-input,
-textarea {
-  padding: 8px;
-  margin-top: 5px;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-}
-
-button[type="submit"] {
-  margin-top: 15px;
-  padding: 10px;
+.btn {
+  display: inline-block;
+  text-decoration: none;
   background-color: #5bc0de;
-  color: #fff;
-  border: none;
+  color: #000;
+  padding: 12px 24px;
   border-radius: 4px;
-  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin-top: 20px;
 }
 
-button[type="submit"]:hover {
+.btn:hover {
   background-color: #31b0d5;
 }
+
+/* Button zentrieren */
+.section {
+  text-align: center;
+}
+
 
 footer {
   text-align: center;
