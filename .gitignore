@@ -1,0 +1,19 @@
+# macOS-spezifische Dateien
+.DS_Store
+
+# Windows-spezifische Dateien
+Thumbs.db
+
+# Ordner für Build-/Dist-Dateien (falls du ein Build-Tool nutzt)
+dist/
+build/
+
+# Node-Module (falls du Node.js verwendest)
+node_modules/
+
+# Log-Dateien
+*.log
+
+# Editor-/IDE-spezifische Verzeichnisse
+.vscode/
+.idea/
