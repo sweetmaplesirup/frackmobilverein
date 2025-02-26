@@ -64,32 +64,16 @@ nav a {
   margin-bottom: 30px;
 }
 
-.cards-container {
+.carousel-container {
   display: flex;
-  flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
-.card {
-  background-color: #FFD400;
-  color: #000;
-  border-radius: 8px;
-  width: 340px;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-  text-align: center;
-}
-
-.card h3 {
-  font-size: 1.8rem;
-  margin-bottom: 15px;
-}
-
-.card img {
+.carousel-slide img {
   width: 100%;
   height: auto;
   border-radius: 8px;
-  margin-bottom: 15px;
-  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
