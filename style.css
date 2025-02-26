@@ -12,8 +12,10 @@ body {
 }
 
 header.hero {
-  background-color: #FFD400;
-  color: #000;
+  background-image: url("Untitled Project (1).jpg"); /* Bild einfügen */
+  background-size: cover; /* Bild proportional einpassen */
+  background-position: center; /* Bild zentrieren */
+  background-repeat: no-repeat;
   min-height: 70vh;
   text-align: center;
   position: relative;
@@ -22,6 +24,7 @@ header.hero {
   justify-content: center;
   align-items: center;
   padding: 20px;
+  color: #fff; /* Textfarbe auf Weiß gesetzt */
 }
 
 nav {
