@@ -8,14 +8,13 @@
 </head>
 <body>
 
-  <!-- HEADER / NAVIGATION -->
   <header class="hero">
     <nav>
       <ul>
         <li><a href="#about">Über uns</a></li>
+        <li><a href="#carousel">Galerie</a></li>
         <li><a href="#events">Aktivitäten</a></li>
         <li><a href="#team">Team</a></li>
-        <li><a href="#carousel">Galerie</a></li>
         <li><a href="#contact">Kontakt</a></li>
       </ul>
     </nav>
@@ -26,7 +25,6 @@
     </div>
   </header>
 
-  <!-- ÜBER UNS -->
   <section id="about" class="section">
     <h2>Über uns</h2>
     <p>
@@ -39,38 +37,48 @@
     </p>
   </section>
 
-  <!-- AKTIVITÄTEN / EVENTS -->
+  <section id="carousel" class="section">
+    <h2>Galerie</h2>
+    <div class="carousel-container">
+      <div class="carousel-slide">
+        <img src="images/carousel1.jpg" alt="Frackmobil Bild 1">
+      </div>
+      <div class="carousel-slide">
+        <img src="images/carousel2.jpg" alt="Frackmobil Bild 2">
+      </div>
+      <div class="carousel-slide">
+        <img src="images/carousel3.jpg" alt="Frackmobil Bild 3">
+      </div>
+    </div>
+  </section>
+
   <section id="events" class="section">
     <h2>Aktivitäten</h2>
     <div class="cards-container">
       <div class="card">
-        <h3>Vorfreude auf die Frackwoche</h3>
+        <h3>Kreative Frackmobile – Unser Wagen im Detail</h3>
+        <img src="images/frackwoche.jpg" alt="Frackwoche">
         <p>
-          Drei Tage lang verwandeln wir den Campus in eine Feierzone: Mit spannenden Workshops
-          rund um Technik und Sicherheit, gemeinschaftlichen Grillabenden und einem kleinen
-          Vor-Umzug, bei dem erste Blicke auf unsere Umzugsfahrzeuge geworfen werden können.
+          Der Bau unseres Frackmobils ist ein zentrales Gemeinschaftsprojekt, das 
+          unsere Kreativität und unser Engineering Können fordert. Ausgehend von 
+          der ersten Idee entwickeln wir gemeinsam ein Konzept, das thematisch zur 
+          Frackwoche passt und durch originelles Design besticht. Bis hin zur 
+          künstlerischen Gestaltung arbeiten wir Hand in Hand, um ein einzigartiges 
+          Fahrzeug zu schaffen, das unseren Studiengang wiederspiegelt.
         </p>
       </div>
       <div class="card">
-        <h3>Fit für den Strassenverkehr</h3>
-        <p>
-          Unser Ziel: Spass haben und trotzdem alle Vorschriften
-          einhalten, damit unsere Frackmobile sicher überführt werden und beim Umzug überzeugen.
-         </p>
-      </div>
-      <div class="card">
         <h3>Sponsoring – Dein Logo auf unserem Frackmobil</h3>
+        <img src="images/sponsoring.jpg" alt="Sponsoring">
         <p>
-          Möchtest du dein Unternehmen originell und publikumswirksam präsentieren? Dann werde 
-          Sponsor und platziere dein Logo auf unseren Frackmobil! Unsere Umzugswagen fahren vor 
-          grossem Publikum durch die Stadt und bieten damit eine einzigartige Werbefläche. Zeige 
-          deine Verbundenheit zur Region und unterstütze gleichzeitig unsere Vereinsarbeit.
+          Werde Sponsor und präsentiere dein Logo auf unseren Frackmobilen! Nutze die 
+          Aufmerksamkeit beim Umzug für kreative Werbung und unterstütze dabei unseren 
+          Verein.
         </p>
       </div>
     </div>
   </section>
 
-  <!-- TEAM -->
   <section id="team" class="section">
     <h2>Unser Team</h2>
     <div class="team-container">
@@ -85,23 +93,6 @@
     </div>
   </section>
 
-  <!-- GALERIE / CAROUSEL-PLATZHALTER -->
-  <section id="carousel" class="section">
-    <h2>Galerie</h2>
-    <div class="carousel-container">
-      <!-- Platzhalter-Bilder -->
-      <div class="carousel-slide">
-        <img src="images/WhatsApp Image 2022-06-10 at 13.57.21.jpeg" alt="Frackmobil Bild 1">
-      </div>
-      <div class="carousel-slide">
-        <img src="images/WhatsApp Image 2022-06-10 at 13.57.22.jpeg" alt="Frackmobil Bild 2">
-      </div>
-      <div class="carousel-slide">
-        <img src="images/download.jpg" alt="Frackmobil Bild 3">
-      </div>
-
-
-  <!-- KONTAKT -->
   <section id="contact" class="section">
     <h2>Kontakt</h2>
     <p class="contact-info">
@@ -111,20 +102,17 @@
     <form>
       <label for="name">Name</label>
       <input type="text" id="name" name="name" required />
-
       <label for="email">E-Mail</label>
       <input type="email" id="email" name="email" required />
-
       <label for="message">Nachricht</label>
       <textarea id="message" name="message" rows="5" required></textarea>
-
       <button type="submit">Absenden</button>
     </form>
   </section>
 
-  <!-- FOOTER -->
   <footer>
     <p>© 2025 Frackmobilverein Wirtschaftsingenieurwesen 2025</p>
   </footer>
+
 </body>
 </html>
