@@ -12,10 +12,10 @@ body {
   line-height: 1.6;
 }
 
-/* GELBER HEADER / BANNER */
+/* HEADER (Banner) mit gleicher Farbe wie der ursprüngliche Button (#f0ad4e) */
 header.hero {
-  background-color: #FFD400; /* Kräftiges Gelb für den Banner */
-  color: #000;              /* Schwarzer Text */
+  background-color: #f0ad4e;
+  color: #000;
   min-height: 70vh;
   text-align: center;
   position: relative;
@@ -47,7 +47,7 @@ nav li {
 }
 
 nav a {
-  color: #000;
+  color: #000; /* Schwarze Schrift */
   text-decoration: none;
   padding: 8px 12px;
   font-weight: bold;
@@ -60,20 +60,22 @@ nav a:hover {
   border-radius: 4px;
 }
 
+/* Hero-Text */
 .hero-text h1 {
-  font-size: 3.5rem;  /* Größere Schrift */
+  font-size: 3.5rem;
   margin-bottom: 15px;
 }
 
 .hero-text p {
-  font-size: 1.3rem; /* Etwas größere Schrift */
+  font-size: 1.3rem;
   margin-bottom: 25px;
 }
 
+/* Button-Stil */
 .btn {
   text-decoration: none;
   background-color: #333;
-  color: #FFD400;
+  color: #fff;
   padding: 12px 24px;
   border-radius: 4px;
   font-weight: bold;
@@ -106,7 +108,7 @@ nav a:hover {
 }
 
 .card {
-  background-color: #FFD400; /* Gelber Hintergrund */
+  background-color: #FFD400; /* Gelber Card-Hintergrund */
   color: #000;              /* Schwarze Schrift */
   border-radius: 4px;
   width: 300px;
@@ -128,7 +130,7 @@ nav a:hover {
 }
 
 .team-member {
-  background-color: #FFD400; /* Ebenfalls Gelb für Konsistenz */
+  background-color: #FFD400;
   color: #000;
   border-radius: 4px;
   width: 200px;
@@ -146,7 +148,7 @@ nav a:hover {
   display: flex;
   gap: 15px;
   justify-content: center;
-  flex-wrap: wrap; /* Bilder ggf. umbrechen, wenn Platz nicht reicht */
+  flex-wrap: wrap;
 }
 
 .carousel-slide {
@@ -166,6 +168,12 @@ nav a:hover {
 }
 
 /* Kontaktformular */
+.contact-info {
+  text-align: center; /* Zentriert den Kontakt-Text */
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -191,7 +199,7 @@ button[type="submit"] {
   margin-top: 20px;
   padding: 12px;
   background-color: #333;
-  color: #FFD400;
+  color: #fff;
   border: none;
   border-radius: 4px;
   cursor: pointer;
